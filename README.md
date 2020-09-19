@@ -50,4 +50,4 @@
 
 ## Ссылки
 
-Packagist: <https://packagist.org/packages/raff/tic-tac-toe>
+Packagist: <https://packagist.org/packages/kirill/tic-tac-toe>
