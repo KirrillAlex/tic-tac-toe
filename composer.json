@@ -1,10 +1,10 @@
 {
-    "name": "kirill/tic-tac-toe",
+    "name": "raff/tic-tac-toe",
     "type": "project",
     "authors": [
         {
-            "name": "Kirill",
-            "email": "kirill.alex.of@gmail.com"
+            "name": "Rafik",
+            "email": "bikmaevrafik@gmail.com"
         }
     ],
     "description": "",
@@ -17,7 +17,8 @@
     "autoload": {
         "files": [
             "src/Controller.php",
-            "src/View.php"
+            "src/View.php",
+            "src/Model.php"
         ]
     }
 }
