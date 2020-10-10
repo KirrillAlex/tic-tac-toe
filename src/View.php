@@ -1,6 +1,6 @@
 <?php
 
-namespace KirrillAlex\ticTacToe\View;
+namespace kirill\ticTacToe\View;
 
     use function cli\prompt;
     use function cli\line;
