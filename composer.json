@@ -1,10 +1,10 @@
 {
-    "name": "raff/tic-tac-toe",
+    "name": "kirillalax/tic-tac-toe",
     "type": "project",
     "authors": [
         {
-            "name": "Rafik",
-            "email": "bikmaevrafik@gmail.com"
+            "name": "Kirill",
+            "email": "kirill.alex.of@gmail.com"
         }
     ],
     "description": "",
