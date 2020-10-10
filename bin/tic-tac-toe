@@ -9,6 +9,6 @@ if (file_exists($autoloadPathForGithub)) {
     require_once($autoloadPathForPackagist);
 }
 
-    use function KirrillAlex\ticTacToe\Controller\startGame;
+    use function kirill\ticTacToe\Controller\startGame;
 
     startGame();
