@@ -1,17 +1,17 @@
 <?php
 
-namespace KirrillAlex\ticTacToe\Controller;
+namespace kirill\ticTacToe\Controller;
 
-    use KirrillAlex\ticTacToe\Model\Board as Board;
+    use kirill\ticTacToe\Model\Board as Board;
     use Exception as Exception;
     use LogicException as LogicException;
 
-    use function KirrillAlex\ticTacToe\View\showGameBoard;
-    use function KirrillAlex\ticTacToe\View\showMessage;
-    use function KirrillAlex\ticTacToe\View\getValue;
+    use function kirill\ticTacToe\View\showGameBoard;
+    use function kirill\ticTacToe\View\showMessage;
+    use function kirill\ticTacToe\View\getValue;
 
-    use const KirrillAlex\ticTacToe\Model\PLAYER_X_MARKUP;
-    use const KirrillAlex\ticTacToe\Model\PLAYER_O_MARKUP;
+    use const kirill\ticTacToe\Model\PLAYER_X_MARKUP;
+    use const kirill\ticTacToe\Model\PLAYER_O_MARKUP;
 
 function startGame()
 {
