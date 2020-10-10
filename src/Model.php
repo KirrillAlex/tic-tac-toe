@@ -1,6 +1,6 @@
 <?php
 
-namespace KirrillAlex\ticTacToe\Model;
+namespace kirill\ticTacToe\Model;
 
 use Exception as Exception;
 use LogicException as LogicException;
