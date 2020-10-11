@@ -85,8 +85,14 @@ function processUserTurn($board, $markup, &$stopGame)
 function getCoords($board)
 {
     $markup = $board->getUserMarkup();
-    $coords = getValue("Enter coords for player '$markup'");
-    $coords = explode(" ", $coords);
+    $coords = getValue("Enter coords for player '$markup' (enter through : )");
+    $coords = explode(":", $coords);
+    $coords[0] = $coords[0]-1;
+    if (isset($coords[1])) {
+        $coords[1] = $coords[1]-1;
+    } else {
+        throw new Exception("No second coordinate. Please try again.");
+    }
     return $coords;
 }
 
